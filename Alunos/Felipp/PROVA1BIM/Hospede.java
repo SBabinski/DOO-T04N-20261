@@ -1,0 +1,21 @@
+package prova.objetos;
+
+public class Hospede {
+    private String nome;
+    private String cpf;
+    private String telefone;
+
+    public Hospede(String nome, String cpf, String telefone) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.telefone = telefone;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void listarHospede() {
+        System.out.println("Nome: " + nome + " | CPF: " + cpf + " | Telefone: " + telefone);
+    }
+}

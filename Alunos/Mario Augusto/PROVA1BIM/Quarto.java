@@ -1,0 +1,27 @@
+public abstract class Quarto {
+    private int numero;
+    private double valorDiaria;
+
+    public Quarto(int numero, double valorDiaria) {
+        this.numero = numero;
+        this.valorDiaria = valorDiaria;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public double getValorDiaria() {
+        return valorDiaria;
+    }
+
+    public void setValorDiaria(double valorDiaria) {
+        this.valorDiaria = valorDiaria;
+    }
+
+    public abstract void exibirInformacoes();
+}

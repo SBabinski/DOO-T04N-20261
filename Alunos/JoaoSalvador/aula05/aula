@@ -1,0 +1,68 @@
+# Paradigmas de Programação: Imperativo vs Declarativo
+
+## Introdução
+
+Os paradigmas de programação representam diferentes formas de pensar e estruturar soluções computacionais. Entre os principais, destacam-se o paradigma **imperativo** e o **declarativo**, que diferem fundamentalmente na maneira como os problemas são abordados e resolvidos.
+
+## Paradigma Imperativo
+
+O paradigma imperativo é baseado na descrição explícita de **como** um programa deve executar suas tarefas. Nesse modelo, o desenvolvedor especifica passo a passo as instruções que o computador deve seguir, manipulando diretamente o estado do programa por meio de variáveis, estruturas de controle (como loops e condicionais) e atribuições.
+
+A linguagem **Java** é um exemplo clássico desse paradigma. Considere o seguinte trecho de código:
+
+```java
+int somaLista(int[] lista) {
+    int soma = 0;
+    for (int i = 0; i < lista.length; i++) {
+        soma += lista[i];
+    }
+    return soma;
+}
+```
+
+Neste exemplo, o objetivo é somar os elementos de uma lista. O código detalha exatamente como isso deve ser feito: inicializa uma variável, percorre o array com um loop e acumula os valores. Cada passo da execução é explicitamente definido.
+
+## Paradigma Declarativo
+
+Já o paradigma declarativo foca em **o que** deve ser feito, em vez de como fazê-lo. O desenvolvedor descreve o problema e as regras que definem a solução, deixando para o sistema a responsabilidade de determinar o fluxo de execução.
+
+A linguagem **Prolog** é um exemplo típico desse paradigma, baseada em lógica formal. Veja o exemplo equivalente:
+
+```prolog
+soma_lista([], 0).
+soma_lista([H|T], Soma) :-
+    soma_lista(T, SomaParcial),
+    Soma is H + SomaParcial.
+```
+
+Aqui, a soma de uma lista é definida por regras recursivas:
+
+* A soma de uma lista vazia é 0.
+* A soma de uma lista é o primeiro elemento somado à soma do restante da lista.
+
+Não há um controle explícito de fluxo como em Java. O Prolog utiliza mecanismos internos de resolução lógica para encontrar a resposta.
+
+## Comparação entre os Paradigmas
+
+A principal diferença entre os dois paradigmas está no nível de abstração:
+
+* **Controle de execução**:
+
+  * Imperativo: controlado explicitamente pelo programador.
+  * Declarativo: gerenciado pelo sistema.
+
+* **Foco**:
+
+  * Imperativo: nos passos para resolver o problema.
+  * Declarativo: na definição do problema e suas regras.
+
+* **Leitura e manutenção**:
+
+  * Código imperativo pode ser mais detalhado e verboso.
+  * Código declarativo tende a ser mais conciso e expressivo.
+
+No exemplo apresentado, ambos os códigos atingem o mesmo objetivo — somar os elementos de uma lista —, porém o fazem de maneiras distintas. Enquanto o Java utiliza um laço iterativo e manipulação de variáveis, o Prolog define uma relação lógica baseada em recursão.
+
+## Conclusão
+
+A escolha entre paradigmas depende do contexto do problema e dos objetivos do desenvolvimento. O paradigma imperativo oferece maior controle e previsibilidade, enquanto o declarativo proporciona maior abstração e clareza em problemas que podem ser expressos por meio de regras e relações. Compreender ambos é essencial para o desenvolvimento de soluções mais eficientes e adequadas a diferentes cenários.

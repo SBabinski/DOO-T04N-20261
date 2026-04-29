@@ -1,0 +1,41 @@
+public class Vendedor {
+
+    String nome;
+    int idade;
+    String loja;
+    String cidade;
+    String bairro;
+    String rua;
+    double salarioBase;
+    double[] salarioRecebido;
+
+    Vendedor(String nome, int idade, String loja, String cidade, String bairro, String rua, double salarioBase) {
+        this.nome = nome;
+        this.idade = idade;
+        this.loja = loja;
+        this.cidade = cidade;
+        this.bairro = bairro;
+        this.rua = rua;
+        this.salarioBase = salarioBase;
+        // Três lançamentos de salário já definidos no código
+        this.salarioRecebido = new double[]{salarioBase, salarioBase * 1.1, salarioBase * 0.95};
+    }
+
+    public void apresentarse() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Loja: " + loja);
+    }
+
+    public double calcularMedia() {
+        double soma = 0;
+        for (double salario : salarioRecebido) {
+            soma += salario;
+        }
+        return soma / salarioRecebido.length;
+    }
+
+    public double calcularBonus() {
+        return salarioBase * 0.2;
+    }
+}
