@@ -1,0 +1,11 @@
+# Arquivo de configuração local com API Key — NUNCA commitar este arquivo
+config.properties
+
+# Build output
+target/
+*.class
+
+# IDE
+.vscode/
+*.iml
+.idea/

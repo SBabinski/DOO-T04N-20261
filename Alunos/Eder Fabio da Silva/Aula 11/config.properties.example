@@ -1,0 +1,4 @@
+# Copie este arquivo para "config.properties" e preencha com sua chave real.
+# O arquivo config.properties está no .gitignore e NÃO será enviado ao Git.
+
+weather.api.key=SUA_API_KEY_AQUI

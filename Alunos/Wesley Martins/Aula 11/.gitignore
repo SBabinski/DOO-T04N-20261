@@ -1,0 +1,5 @@
+# Ignora o arquivo que contém o token privado da API do Visual Crossing
+config.properties
+
+# Se você usar outros arquivos privados, adicione-os aqui
+# ex: secrets.properties
