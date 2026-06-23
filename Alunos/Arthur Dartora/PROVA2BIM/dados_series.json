@@ -1,0 +1,61 @@
+{
+  "nome" : "zé",
+  "favoritos" : [ {
+    "id" : 169,
+    "nome" : "Breaking Bad",
+    "idioma" : "English",
+    "generos" : [ "Drama", "Crime", "Thriller" ],
+    "notaGeral" : 9.2,
+    "estado" : "Ended",
+    "dataEstreia" : "2008-01-20",
+    "dataTermino" : "2013-09-29",
+    "emissora" : "AMC",
+    "resumo" : "Um professor de quimica do ensino medio passa a fabricar drogas."
+  }, {
+    "id" : 15299,
+    "nome" : "The Boys",
+    "idioma" : "English",
+    "generos" : [ "Action", "Fantasy", "Adult" ],
+    "notaGeral" : 8.3,
+    "estado" : "Ended",
+    "dataEstreia" : "2019-07-26",
+    "dataTermino" : "2026-05-20",
+    "emissora" : "Prime Video",
+    "resumo" : "In a world where superheroes embrace the darker side of their massive celebrity and fame, The Boys centres on a group of vigilantes known informally as \"The Boys,\" who set out to take down corrupt superheroes with no more than blue collar grit and a willingness to fight dirty."
+  }, {
+    "id" : 27848,
+    "nome" : "Yellowstone",
+    "idioma" : "English",
+    "generos" : [ "Drama", "Western" ],
+    "notaGeral" : 8.1,
+    "estado" : "Ended",
+    "dataEstreia" : "2018-06-20",
+    "dataTermino" : "2024-12-15",
+    "emissora" : "Paramount Network",
+    "resumo" : "Yellowstone follows the Dutton family, led by John Dutton, who controls the largest contiguous ranch in the United States, under constant attack by those it borders — land developers, an Indian reservation, and America's first National Park. It is an intense study of a violent world far from media scrutiny — where land grabs make developers billions, and politicians are bought and sold by the world's largest oil and lumber corporations. Where drinking water poisoned by fracking wells and unsolved murders are not news: they are a consequence of living in the new frontier. It is the best and worst of America seen through the eyes of a family that represents both."
+  } ],
+  "assistidas" : [ {
+    "id" : 431,
+    "nome" : "Friends",
+    "idioma" : "English",
+    "generos" : [ "Comedy", "Romance" ],
+    "notaGeral" : 8.5,
+    "estado" : "Ended",
+    "dataEstreia" : "1994-09-22",
+    "dataTermino" : "2004-05-06",
+    "emissora" : "NBC",
+    "resumo" : "Um grupo de amigos vivendo e se divertindo em Nova York."
+  } ],
+  "desejaAssistir" : [ {
+    "id" : 2993,
+    "nome" : "Stranger Things",
+    "idioma" : "English",
+    "generos" : [ "Drama", "Fantasy", "Science-Fiction" ],
+    "notaGeral" : 8.4,
+    "estado" : "Running",
+    "dataEstreia" : "2016-07-15",
+    "dataTermino" : null,
+    "emissora" : "Netflix",
+    "resumo" : "Criancas enfrentam mistérios sobrenaturais em uma cidade pequena."
+  } ]
+}
