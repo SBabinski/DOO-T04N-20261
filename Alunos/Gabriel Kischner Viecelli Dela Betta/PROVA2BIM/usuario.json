@@ -1,0 +1,142 @@
+{
+  "nome": "Gabriel",
+  "favoritos": [
+    {
+      "nome": "Friends",
+      "idioma": "English",
+      "generos": [
+        "Comedy",
+        "Romance"
+      ],
+      "nota": 8.5,
+      "status": "Ended",
+      "estreia": "1994-09-22",
+      "termino": "2004-05-06",
+      "emissora": "NBC"
+    },
+    {
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "nota": 9.2,
+      "status": "Ended",
+      "estreia": "2008-01-20",
+      "termino": "2019-10-11",
+      "emissora": "AMC"
+    },
+    {
+      "nome": "The Walking Dead",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "nota": 7.9,
+      "status": "Ended",
+      "estreia": "2010-10-31",
+      "termino": "2022-11-20",
+      "emissora": "Não informada"
+    }
+  ],
+  "assistidas": [
+    {
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "nota": 9.2,
+      "status": "Ended",
+      "estreia": "2008-01-20",
+      "termino": "2019-10-11",
+      "emissora": "AMC"
+    },
+    {
+      "nome": "Friends",
+      "idioma": "English",
+      "generos": [
+        "Comedy",
+        "Romance"
+      ],
+      "nota": 8.5,
+      "status": "Ended",
+      "estreia": "1994-09-22",
+      "termino": "2004-05-06",
+      "emissora": "NBC"
+    },
+    {
+      "nome": "House of the Dragon: The House That Dragons Built",
+      "idioma": "English",
+      "generos": [],
+      "nota": 8.4,
+      "status": "Running",
+      "estreia": "2022-08-21",
+      "termino": "Não informado",
+      "emissora": "HBO"
+    },
+    {
+      "nome": "The Walking Dead",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "nota": 7.9,
+      "status": "Ended",
+      "estreia": "2010-10-31",
+      "termino": "2022-11-20",
+      "emissora": "Não informada"
+    }
+  ],
+  "desejaAssistir": [
+    {
+      "nome": "Friends",
+      "idioma": "English",
+      "generos": [
+        "Comedy",
+        "Romance"
+      ],
+      "nota": 8.5,
+      "status": "Ended",
+      "estreia": "1994-09-22",
+      "termino": "2004-05-06",
+      "emissora": "NBC"
+    },
+    {
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "nota": 9.2,
+      "status": "Ended",
+      "estreia": "2008-01-20",
+      "termino": "2019-10-11",
+      "emissora": "AMC"
+    },
+    {
+      "nome": "The Walking Dead",
+      "idioma": "English",
+      "generos": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "nota": 7.9,
+      "status": "Ended",
+      "estreia": "2010-10-31",
+      "termino": "2022-11-20",
+      "emissora": "Não informada"
+    }
+  ]
+}
