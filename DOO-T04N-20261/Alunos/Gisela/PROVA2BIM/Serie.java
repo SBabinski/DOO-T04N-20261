@@ -8,25 +8,32 @@ public class Serie {
     private List<String> generos;
     private double nota;
     private String estado;
-    private String dataEstreia;
-    private String dataFim;
+    private String estreia;
+    private String fim;
     private String emissora;
+    private String resumo;
 
     public Serie(String nome, String idioma, List<String> generos, double nota,
-                 String estado, String dataEstreia, String dataFim, String emissora) {
+                 String estado, String estreia, String fim, String emissora) {
         this.nome = nome;
         this.idioma = idioma;
         this.generos = generos;
         this.nota = nota;
         this.estado = estado;
-        this.dataEstreia = dataEstreia;
-        this.dataFim = dataFim;
+        this.estreia = estreia;
+        this.fim = fim;
         this.emissora = emissora;
     }
 
     public String getNome() { return nome; }
+    public String getIdioma() { return idioma; }
+    public List<String> getGeneros() { return generos; }
     public double getNota() { return nota; }
     public String getEstado() { return estado; }
+    public String getEstreia() { return estreia; }
+    public String getFim() { return fim; }
+    public String getEmissora() { return emissora; }
+    public String getResumo() { return resumo; }
 
     @Override
     public String toString() {

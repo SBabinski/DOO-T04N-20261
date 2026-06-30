@@ -21,7 +21,7 @@ public class Main {
         Usuario usuario = JsonService.carregar();
         if (usuario != null) {
             System.out.println("Bem-vindo(a/e) de volta, " + usuario.getNome());
-            new TelaPrincipal(); // abre tela principal direto
+            new TelaPrincipal(usuario); // abre tela principal direto user logade
         } else {
             new LoginFrame(); // abre tela de login
         }

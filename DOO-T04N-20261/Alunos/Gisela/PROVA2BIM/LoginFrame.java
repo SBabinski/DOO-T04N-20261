@@ -27,7 +27,7 @@ public class LoginFrame extends JFrame {
                 Usuario usuario = new Usuario(nome);
                 JsonService.salvar(usuario);
                 dispose(); // fecha tela de login
-                new TelaPrincipal(); // abre tela principal
+                new TelaPrincipal(usuario); // abre tela principal com user logado
             } else {
                 JOptionPane.showMessageDialog(this, "Digite um nome válido!");
             }
