@@ -1,0 +1,126 @@
+{
+  "nome": "Felipe",
+  "favoritos": [
+    {
+      "id": 975,
+      "nome": "Batman",
+      "idioma": "English",
+      "generos": ["Comedy", "Action", "Adventure"],
+      "nota": 7.8,
+      "estado": "Ended",
+      "dataEstreia": "1966-01-12",
+      "dataTermino": "1968-03-14",
+      "emissora": "ABC",
+      "resumo": "Wealthy entrepreneur Bruce Wayne and his ward Dick Grayson lead a double life: they are actually crime fighting duo Batman and Robin. A secret Batpole in the Wayne mansion leads to the Batcave, where Police Commissioner Gordon often calls with the latest emergency threatening Gotham City. Racing to the scene of the crime in the Batmobile, Batman and Robin must (with the help of their trusty Bat-utility-belt) thwart the efforts of a variety of master criminals, including Catwoman, Egghead, The Joker, King Tut, The Penguin, and The Riddler.",
+      "imagemUrl": "https://static.tvmaze.com/uploads/images/medium_portrait/6/16463.jpg"
+    },
+    {
+      "id": 169,
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 9.2,
+      "estado": "Ended",
+      "dataEstreia": "2008-01-20",
+      "dataTermino": "2019-10-11",
+      "emissora": "AMC",
+      "resumo": "Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in this world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.",
+      "imagemUrl": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253519.jpg"
+    },
+    {
+      "id": 82,
+      "nome": "Game of Thrones",
+      "idioma": "English",
+      "generos": ["Drama", "Adventure", "Fantasy"],
+      "nota": 8.9,
+      "estado": "Ended",
+      "dataEstreia": "2011-04-17",
+      "dataTermino": "2019-05-19",
+      "emissora": "HBO",
+      "resumo": "Nove famílias nobres travam uma guerra pelo controle das terras míticas de Westeros.",
+      "imagemUrl": null
+    },
+    {
+      "id": 21892,
+      "nome": "Trollhunters: Tales of Arcadia",
+      "idioma": "English",
+      "generos": ["Action", "Adventure", "Fantasy"],
+      "nota": 7.8,
+      "estado": "Ended",
+      "dataEstreia": "2016-12-23",
+      "dataTermino": "2021-07-21",
+      "emissora": "Netflix",
+      "resumo": "After uncovering a mysterious amulet, an average teen assumes an unlikely destiny and sets out to save two worlds. Created by Guillermo del Toro.",
+      "imagemUrl": "https://static.tvmaze.com/uploads/images/medium_portrait/78/197449.jpg"
+    }
+  ],
+  "jaAssistidas": [
+    {
+      "id": 305,
+      "nome": "Stranger Things",
+      "idioma": "English",
+      "generos": ["Drama", "Fantasy", "Horror"],
+      "nota": 8.5,
+      "estado": "Running",
+      "dataEstreia": "2016-07-15",
+      "dataTermino": null,
+      "emissora": "Netflix",
+      "resumo": "Quando um garoto desaparece em uma pequena cidade, seus amigos e família enfrentam forças sobrenaturais para trazê-lo de volta.",
+      "imagemUrl": null
+    },
+    {
+      "id": 1190,
+      "nome": "The Wire",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 9.0,
+      "estado": "Ended",
+      "dataEstreia": "2002-06-02",
+      "dataTermino": "2008-03-09",
+      "emissora": "HBO",
+      "resumo": "Série de televisão americana ambientada e produzida em Baltimore, Maryland.",
+      "imagemUrl": null
+    }
+  ],
+  "desejassistir": [
+    {
+      "id": 14702,
+      "nome": "The Last of Us",
+      "idioma": "English",
+      "generos": ["Drama", "Action", "Horror"],
+      "nota": 8.8,
+      "estado": "Running",
+      "dataEstreia": "2023-01-15",
+      "dataTermino": null,
+      "emissora": "HBO",
+      "resumo": "Joel é encarregado de contrabandear Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal.",
+      "imagemUrl": null
+    },
+    {
+      "id": 37780,
+      "nome": "Succession",
+      "idioma": "English",
+      "generos": ["Drama", "Comedy"],
+      "nota": 8.7,
+      "estado": "Ended",
+      "dataEstreia": "2018-06-03",
+      "dataTermino": "2023-05-28",
+      "emissora": "HBO",
+      "resumo": "A família Roy, dona de um dos maiores conglomerados de mídia e entretenimento do mundo, batalha pelo controle da empresa.",
+      "imagemUrl": null
+    },
+    {
+      "id": 618,
+      "nome": "Better Call Saul",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 8.8,
+      "estado": "Ended",
+      "dataEstreia": "2015-02-08",
+      "dataTermino": "2022-08-15",
+      "emissora": "AMC",
+      "resumo": "Série derivada de Breaking Bad que acompanha a transformação de Jimmy McGill no advogado criminoso Saul Goodman.",
+      "imagemUrl": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "nome": "Felipe",
+  "favoritos": [
+    {
+      "id": 169,
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 9.2,
+      "estado": "Ended",
+      "dataEstreia": "2008-01-20",
+      "dataTermino": "2013-09-29",
+      "emissora": "AMC",
+      "resumo": "Um professor de química do ensino médio diagnosticado com câncer se une a um ex-aluno para produzir e vender metanfetamina.",
+      "imagemUrl": null
+    },
+    {
+      "id": 82,
+      "nome": "Game of Thrones",
+      "idioma": "English",
+      "generos": ["Drama", "Adventure", "Fantasy"],
+      "nota": 8.9,
+      "estado": "Ended",
+      "dataEstreia": "2011-04-17",
+      "dataTermino": "2019-05-19",
+      "emissora": "HBO",
+      "resumo": "Nove famílias nobres travam uma guerra pelo controle das terras míticas de Westeros.",
+      "imagemUrl": null
+    }
+  ],
+  "jaAssistidas": [
+    {
+      "id": 305,
+      "nome": "Stranger Things",
+      "idioma": "English",
+      "generos": ["Drama", "Fantasy", "Horror"],
+      "nota": 8.5,
+      "estado": "Running",
+      "dataEstreia": "2016-07-15",
+      "dataTermino": null,
+      "emissora": "Netflix",
+      "resumo": "Quando um garoto desaparece em uma pequena cidade, seus amigos e família enfrentam forças sobrenaturais para trazê-lo de volta.",
+      "imagemUrl": null
+    },
+    {
+      "id": 1190,
+      "nome": "The Wire",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 9.0,
+      "estado": "Ended",
+      "dataEstreia": "2002-06-02",
+      "dataTermino": "2008-03-09",
+      "emissora": "HBO",
+      "resumo": "Série de televisão americana ambientada e produzida em Baltimore, Maryland.",
+      "imagemUrl": null
+    },
+    {
+      "id": 169,
+      "nome": "Breaking Bad",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 9.2,
+      "estado": "Ended",
+      "dataEstreia": "2008-01-20",
+      "dataTermino": "2013-09-29",
+      "emissora": "AMC",
+      "resumo": "Um professor de química do ensino médio diagnosticado com câncer se une a um ex-aluno para produzir e vender metanfetamina.",
+      "imagemUrl": null
+    }
+  ],
+  "desejassistir": [
+    {
+      "id": 14702,
+      "nome": "The Last of Us",
+      "idioma": "English",
+      "generos": ["Drama", "Action", "Horror"],
+      "nota": 8.8,
+      "estado": "Running",
+      "dataEstreia": "2023-01-15",
+      "dataTermino": null,
+      "emissora": "HBO",
+      "resumo": "Joel é encarregado de contrabandear Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal.",
+      "imagemUrl": null
+    },
+    {
+      "id": 37780,
+      "nome": "Succession",
+      "idioma": "English",
+      "generos": ["Drama", "Comedy"],
+      "nota": 8.7,
+      "estado": "Ended",
+      "dataEstreia": "2018-06-03",
+      "dataTermino": "2023-05-28",
+      "emissora": "HBO",
+      "resumo": "A família Roy, dona de um dos maiores conglomerados de mídia e entretenimento do mundo, batalha pelo controle da empresa.",
+      "imagemUrl": null
+    },
+    {
+      "id": 618,
+      "nome": "Better Call Saul",
+      "idioma": "English",
+      "generos": ["Drama", "Crime", "Thriller"],
+      "nota": 8.8,
+      "estado": "Ended",
+      "dataEstreia": "2015-02-08",
+      "dataTermino": "2022-08-15",
+      "emissora": "AMC",
+      "resumo": "Série derivada de Breaking Bad que acompanha a transformação de Jimmy McGill no advogado criminoso Saul Goodman.",
+      "imagemUrl": null
+    }
+  ]
+}
